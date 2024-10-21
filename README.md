@@ -1,3 +1,3 @@
-This is my first github repository
+This is my first GitHub Repository
 <br>
 <b>Author - Nikhil Kulkarni</b>
