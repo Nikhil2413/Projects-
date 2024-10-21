@@ -1,0 +1,146 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          list-style: none;
+          text-decoration: none;
+}
+
+body{
+          background-color: #F5E8C7;
+}
+.wrap{
+          display: flex;
+          position: relative;
+          top: 30px;
+}
+.wrap .sidebar{
+          position: fixed;
+          width: 300px;
+          height: 100%;
+          background-color: #ECB159;
+          border-radius: 20px;
+          padding: 30px 0;
+}
+h1{
+          
+          font-size: 40px;
+          margin-left: 60px;
+          margin-top: 20px;
+}
+.wrap .sidebar ul li{
+          padding: 25px;
+          border-bottom: 2px solid  #F5E8C7;
+
+}
+
+.wrap .sidebar ul li a{
+          color: black;
+          display: block;
+}
+.wrap .sidebar ul li a .fa{
+          width: 30px;
+}
+.wrap .sidebar ul li:hover{
+          background-color: #F5E8C7;
+}
+
+
+.wrap .sidebar .social{
+          position: absolute;
+          left: 23%;
+          top: 650px;
+          display: flex;
+}
+.wrap .sidebar .social a{
+          display: block;
+          width: 40px;
+          background-color: #F5E8C7;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          margin: 0 5px;
+          color: #ECB159;
+          border-radius: 5px;
+}
+
+.wrap .main_content{
+          width: 100%;
+          margin-left: 300px;
+}
+.wrap .main_content .header{
+          padding: 10px;
+          font-size: 35px;
+          position: relative;
+          left: 550px;
+          top: -300px;
+          font-weight: 600;
+}
+.wrap .main_content .info{
+          position: relative;
+          left: 200px;
+          top: 50px;
+}
+form{
+          width: 300px;
+          margin-left: 650px;
+          margin-top: -270px;
+          font-size: 25px;
+}
+
+form input{
+          width: 100%;
+          padding: 10px 10px;
+          border: none;
+          border-radius: 5px;
+          outline: none;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#submit{
+          width: 180px;
+          margin-top: 15px;
+          margin-left: 8px;
+          border-radius: 30px;
+          color: rgb(0, 0, 0);
+          border: 5px;
+          font-weight: 600;
+          font-size: 18px;
+          transition: all 0.1s ease;
+          background-color: #ECB159;
+}
+#submit:active{
+          transform: scale(0.96);
+}
+
+#submit:hover{
+          background-color: white;
+}
+
+
+h2{
+          font-size: 30px;
+          width: 350px;
+          position: relative;
+          left: 150px;
+          top: -50px;
+}
+td{
+          vertical-align: bottom;
+}
+
+tr:hover{
+          background-color: #ECB159;
+}
+th{
+          background-color: #ECB159;
+}
+
+.continar{
+          
+          font-size: 30px;
+          position: relative;
+          top: 70px;
+          left: 500px;
+          
+}

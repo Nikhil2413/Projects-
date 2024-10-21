@@ -1,0 +1,246 @@
+*{
+          margin: 0;
+          padding: 0;
+          text-decoration: none;
+          list-style: none;
+}
+body{
+          background-color: #F5E8C7;
+}
+h2{
+          position: relative;
+          left: 500px;
+          top: 900px;
+}
+
+
+.navbar{
+          background: #ECB159;
+          height: 100px;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10 -5%;
+          
+}
+
+.navbar h1{
+          font-family: "Teko", sans-serif;
+          color: #F5E8C7;
+          font-size: 60px;
+          margin-left: 200px;
+          margin-top: 10px;
+}
+
+.navbar ul{
+          list-style: none;
+          display: flex;
+          margin-right: 150px;
+}
+
+.navbar ul li{
+          padding: 1px 20px;
+          position: relative;
+
+}
+.navbar ul li a{
+          text-decoration: none;
+          font-size: 24px;
+          color: black;
+          transition: all 0.3s;
+}
+.navbar .fa{
+          width: 30px;
+}
+
+.navbar ul li a:hover{
+          color: #F5E8C7;
+}
+.sub-menu{
+          display: none;
+}
+.navbar ul li:hover .sub-menu{
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 100%;
+          background-color: #ECB159;
+}
+
+.sub-menu ul{
+          display: block;
+          margin: 10px;
+}
+
+.sub-menu ul li{
+          width: 150px;
+          padding: 10px;
+}
+
+.section{
+          margin: 0;
+          padding: 0;
+          height: 100vh;
+          position: absolute;
+          left: 420px;
+          top: 120px;
+}
+.slider{
+          width: 800px;
+          height: 500px;
+          border-radius: 20px;
+          overflow: hidden;
+}
+
+.slide{
+          width: 500%;
+          height: 500px;
+          display: flex;
+}
+
+.slide input{
+          display: none;
+}
+
+.st{
+          width: 20%;
+          transition: 2s;
+}
+.st img{
+          width: 800px;
+          height: 450px;
+}
+#radio1:checked ~ .image1{
+          margin-left: 0;
+}
+#radio2:checked ~ .image1{
+          margin-left: -20%;
+}
+#radio3:checked ~ .image1{
+          margin-left: -40%;
+}
+#radio4:checked ~ .image1{
+          margin-left: -60%;
+}
+.nav-auto{
+          position: absolute;
+          width: 800px;
+          margin-top: 460px;
+          display: flex;
+          justify-content: center;
+}
+
+.nav-auto div{
+          border: 2px solid #ECB159;
+          padding: 5px;
+          border-radius: 10px;
+          transition: 1s;
+
+}
+
+.nav-auto div:not(:last-child){
+          margin-right: 20px;
+          justify-content: center;
+}
+
+#radio1:checked ~ .nav-auto .a-b1{
+          background-color: #ECB159;
+}
+#radio2:checked ~ .nav-auto .a-b2{
+          background-color: #ECB159;
+}
+#radio3:checked ~ .nav-auto .a-b3{
+          background-color: #ECB159;
+}
+#radio4:checked ~ .nav-auto .a-b4{
+          background-color: #ECB159;
+}
+
+.Book_Ship{
+          width: 400px;
+          height: 120px;
+          margin-left: 110px;
+          margin-top: 550px;
+          border-radius: 3px;
+}
+
+.B1{
+          font-size: 30px;
+          text-align: center;
+}
+
+#login{
+          width: 400px;
+          height: 40px;
+          position: relative;
+          top: 30px;
+          background-color: #ECB159;
+          border: none;  
+          font-size: 15px;      
+          transition: all 0.1s ease;        
+}
+#login:active{
+          transform: scale(0.96);
+}
+#login:hover{
+          background-color: white;
+}
+.Track_Ship{
+          width: 400px;
+          height: 120px;
+          margin-left: 650px;
+          margin-top: -120px;
+          border-radius: 3px;
+}
+
+.B2{
+          font-size: 30px;
+          text-align: center;
+}
+
+#Track{
+          width: 400px;
+          height: 40px;
+          position: relative;
+          top: 30px;
+          background-color: #ECB159;
+          border: none;  
+          font-size: 15px;      
+          transition: all 0.1s ease;        
+}
+#Track:active{
+          transform: scale(0.96);
+}
+#Track:hover{
+          background-color: white;
+}
+.Store_Ship{
+          width: 400px;
+          height: 120px;
+          margin-left: 1180px;
+          margin-top: -120px;
+          border-radius: 3px;
+}
+
+.B3{
+          font-size: 30px;
+          text-align: center;
+}
+
+#Store{
+          width: 400px;
+          height: 40px;
+          position: relative;
+          top: 30px;
+          background-color: #ECB159;
+          border: none;  
+          font-size: 15px;      
+          transition: all 0.1s ease;        
+}
+#Store:active{
+          transform: scale(0.96);
+}
+#Store:hover{
+          background-color: white;
+}
